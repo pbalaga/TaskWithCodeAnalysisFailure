@@ -8,7 +8,7 @@
   <UsingTask TaskName="TaskLibrary.SampleTask" AssemblyFile="..\TaskLibrary\bin\Debug\netstandard2.0\TaskLibrary.dll" />
 
   <Target Name="SampleTaskInvocation" BeforeTargets="Build">
-    <SampleTask></SampleTask>
+    <SampleTask />
   </Target>
 
   <ItemGroup>
